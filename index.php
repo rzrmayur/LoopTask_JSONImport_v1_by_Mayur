@@ -36,7 +36,7 @@
         echo '<h3>Imported JSON Data Succesfully</h3><br />';
               @mail(
         /* comma-separated list of recipients */
-            "rzrmayur@gmail.com",
+            "logging@agentur-loop.com",
 
             /* message subject */
             "New Events Added",
@@ -45,7 +45,7 @@
             "Total number of events recorded: $jsoncount",
 
             /* sender email similar */
-            "From: jchltatf@aerialair.in"
+            "From: example@example.com"
         );
     }
     else
