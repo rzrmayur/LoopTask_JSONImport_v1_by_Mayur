@@ -1,4 +1,4 @@
-# Import Data Script for JSON to Wordpress by Mayur Panchal
+# LoopTask_JSONImport_v1 by Mayur Panchal
 
 1) Import mytable.sql into the mysql database to create tables.
 
