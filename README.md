@@ -1,4 +1,4 @@
-# Import Data Script for JSON to Wordpress
+# Import Data Script for JSON to Wordpress by Mayur Panchal
 
 1) Import mytable.sql into the mysql database for table creation as per the json elements.
 
