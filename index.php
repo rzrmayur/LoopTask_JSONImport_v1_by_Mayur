@@ -3,12 +3,12 @@
     $query = '';
     $table_data = '';
     $filename = "test.json";
-    $data = file_get_contents($filename); //Read the JSON file in PHP
+    $data = file_get_contents($filename); //Read the JSON file
     $array = json_decode($data, true); //Convert JSON String into PHP Array
 	$jsoncount =  count($array);
-    foreach ($array as $row) //Extract the Array Values by using Foreach Loop
+    foreach ($array as $row) 
     {
-        $query .= "INSERT INTO mytable(id, title, about, organizer, timestamp, email, address, latitude, longitude, tags0, tags1, tags2, tags3, tags4, tags5, tags6) VALUES ('" . $row["id"] . "', '" . $row["title"] . "', '" . $row["about"] . "', '" . $row["organizer"] . "', '" . $row["timestamp"] . "', '" . $row["email"] . "', '" . $row["address"] . "', '" . $row["latitude"] . "', '" . $row["longitude"] . "', '" . $row["tags"][0] . "', '" . $row["tags"][1] . "', '" . $row["tags"][2] . "', '" . $row["tags"][3] . "', '" . $row["tags"][4] . "', '" . $row["tags"][5] . "', '" . $row["tags"][6] . "'); ";  // Make Multiple Insert Query
+        $query .= "INSERT INTO mytable(id, title, about, organizer, timestamp, email, address, latitude, longitude, tags0, tags1, tags2, tags3, tags4, tags5, tags6) VALUES ('" . $row["id"] . "', '" . $row["title"] . "', '" . $row["about"] . "', '" . $row["organizer"] . "', '" . $row["timestamp"] . "', '" . $row["email"] . "', '" . $row["address"] . "', '" . $row["latitude"] . "', '" . $row["longitude"] . "', '" . $row["tags"][0] . "', '" . $row["tags"][1] . "', '" . $row["tags"][2] . "', '" . $row["tags"][3] . "', '" . $row["tags"][4] . "', '" . $row["tags"][5] . "', '" . $row["tags"][6] . "'); ";  
         $table_data .= '
             <tr>
        <td>' . $row["id"] . '</td>
