@@ -1,5 +1,5 @@
 <?php
-    $connect = mysqli_connect("localhost", "dbusername", "dbpassword", "dbname"); //Connect PHP to MySQL Database
+    $connect = mysqli_connect("localhost", "db_username", "db_password", "db_name"); //Connect PHP to MySQL Database
     $query = '';
     $table_data = '';
     $filename = "test.json";
