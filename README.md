@@ -15,4 +15,6 @@ LoopTask DataViewer v1 can later be used to embed it into a WordPress post after
    d) db_name is mysql databse name
 
 3) JSON File is $filename = "test.json";
+
+4) File can also be executed using Wordpress CLI command - "wp eval-file index" or "wp eval-file index" --skip-wordpress
 	
