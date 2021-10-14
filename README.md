@@ -1,2 +1,2 @@
-# json_data_output_by_mayur_panchal
+# Import Data Script for JSON to Wordpress
  For loop task
