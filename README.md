@@ -5,6 +5,8 @@
 2) Enter mysql username, password, database name inside index.php (line 2)
 
    Example: $connect = mysqli_connect("localhost", "db_username", "db_password", "db_name");
+
+
    a) localhost is mysql server
    b) db_username is mysql username
    c) db_password is mysql password
