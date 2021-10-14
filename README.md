@@ -5,7 +5,7 @@ LoopTask DataViewer v1 can later be used to embed it into a WordPress post after
 
 1) Import mytable.sql into the mysql database to create tables. Run the query. You can use wordpress database name.
 
-2) Enter mysql username, password, database name inside index.php (line 2)
+2) Enter mysql username, password, database name inside index.php
 
    Example: $connect = mysqli_connect("localhost", "db_username", "db_password", "db_name");
 
