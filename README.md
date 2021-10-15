@@ -17,3 +17,4 @@ This script uses PHP to import events from a JSON file into MYSQL Server.
 
 4) File can also be executed using Wordpress CLI command - "wp eval-file index" or "wp eval-file index" --skip-wordpress
 	
+5) Php Mail function is enabled. You can change the “from” email address as per your server configuration.
